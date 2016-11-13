@@ -154,6 +154,13 @@ margin: -3px !important;
     padding: 1px !important;
 }
 */
+.commits .right .black {
+	background-color: #78CB5B !important;
+    color: #FFF !important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.15) !important;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,.2),rgba(0,0,0,.2)) !important;
+    background-image: linear-gradient(rgba(255,255,255,.2),rgba(0,0,0,.2)) !important;
+}
 .fitted.item button.green {
     padding: 3px !important;
     padding-left: 8px !important;
@@ -215,6 +222,8 @@ margin: -3px !important;
 }
 .repository.release #release-list > li .detail .author img {
 	margin-bottom: -6px !important;
+	margin-right: 6px !important;
+	margin-right: 6px !important;
 }
 .download .list a {
 	display: flex !important;
