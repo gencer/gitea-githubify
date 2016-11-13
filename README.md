@@ -3,7 +3,9 @@ GitHub Theme for Gitea (and for Gogs)
 
 This repo contains patch files for Gitea to make Gitea looks like GitHub.
 
-**Note** **that**, patch size is huge, because it still needs many fixes. Until it fixed and proper version released, I will decrease patch size.
+~~**Note** **that**, patch size is huge, because it still needs many fixes. Until it fixed and proper version released, I will decrease patch size.~~
+
+I minified and decreased patch size. I will try to implement more minified version later.
 
 Install
 ==
