@@ -33,7 +33,7 @@ a, button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 {
 	text-shadow: none !important;
 }
 
-.ui.blue.button, .ui.blue.buttons .button:hover {
+.ui.blue.buttons .ui.blue.button {
 	padding: 8px !important;
 	line-height: 1rem !important;
 	background-color: #fcfcfc !important;
@@ -42,7 +42,13 @@ a, button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 {
 	text-shadow: none !important;
 }
 
-
+.ui.blue.buttons .button:hover {
+	background-color: #F0F0F0 !important;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1)) !important;
+    background-image: linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1)) !important;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.13) inset,0 0 0 0 rgba(0,0,0,.13) inset !important;
+    color: rgba(0,0,0,.8) !important;
+}
 .ui.icon.button>.icon, .ui.icon.buttons .button>.icon {
 	margin: -3px !important;
 }
@@ -176,9 +182,6 @@ margin: -3px !important;
     color: #111 !important; 
     box-shadow: 0 0 0 1px #666 inset,0 0 0 0 rgba(0,0,0,.13) inset !important; 
 }
-.ui.menu .ui.dropdown .menu>.item {
-	padding: 3px 15px 7px 15px !important;
-}
 .ui.basic.blue.button, .ui.basic.blue.buttons .button {
     z-index: 2 !important;
     color: #333 !important;
@@ -279,9 +282,6 @@ h2 {
 }
 .jump .image {
 	margin-top: -5px !important;
-}
-.ui.dropdown .menu>.item {
-	padding: 5px 5px 10px 20px !important;
 }
 .bar {
 	background-color: #F5F5F5 !important;
@@ -384,6 +384,67 @@ h2 {
 } 
 .column .breadcrumb a:last-of-type {
 	font-weight: 600 !important;
+}
+.ui.tiny.basic.status.buttons {
+	border: none !important;
+}
+/*
+.ui.tiny.basic.status.buttons a.ui.basic.button {
+	background-color: #fff !important;
+	background-image: none !important;
+}*/
+.ui.basic.green.active.button, .ui.basic.green.buttons .active.button {
+	background-color: #fff !important;
+	border: 0 !important;
+	background-image: none !important;
+}
+
+.ui.tiny.basic.buttons .basic.button {
+	padding: 12px !important;
+	border: none !important;
+	box-shadow: none !important;
+	background-color: #fff !important;
+	background-image: none !important;
+}
+.ui.tiny.basic.buttons .green.active {
+	background-color: #F3F3F3 !important;
+	border: none !important;
+	box-shadow: none !important;
+	border-right: 1px solid #ccc !important;
+}
+.ui.tiny.basic.buttons .red.active {
+	background-color: #F3F3F3 !important;
+	border: none !important;
+	box-shadow: none !important;
+	border-left: 1px solid #ccc !important;
+}
+.ui.basic.button:focus, .ui.basic.button:hover, .ui.basic.buttons .button:focus, .ui.basic.buttons .button:hover {
+	background-color: #F3F3F3 !important;
+	border: none !important;
+	box-shadow: none !important;
+
+}
+
+.ui.tiny.basic.buttons .octicon {
+	margin: 0 !important;
+}
+.ui.secondary.menu .active.item:hover, .ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover {
+	background-color: transparent !important;
+	color: #664367 !important;
+}
+
+.right .ui.button {
+	font-weight: normal !important;
+}
+
+.ui.dropdown .menu>.item {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	padding-left: 15px !important;
+	padding-right: 25px !important;
+}
+.repository .filter.menu .octicon {
+	margin-top: -2px !important;
 }
 /*
 .ui.radio.checkbox .box:before, .ui.radio.checkbox label:before {
