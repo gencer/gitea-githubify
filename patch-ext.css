@@ -127,11 +127,43 @@ margin: -3px !important;
 	color: #666 !important;
 }
 .ui.basic.button:focus, .ui.basic.button:hover, .ui.basic.buttons .button:focus, .ui.basic.buttons .button:hover {
-	background: #fcfcfc !important; 
-    color: #333 !important; 
-    box-shadow: 0 0 0 1px #999 inset,0 0 0 0 rgba(0,0,0,.13) inset !important; 
+    padding: 7px !important;
+    line-height: 1rem !important;
+    background-color: #fff !important;
+    color: rgba(0,0,0,.8) !important;
+    background-image: linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1)) !important;
+    text-shadow: none !important;
     
 }
+.ui.basic.button, .ui.basic.buttons .button {
+    padding: 7px !important;
+    line-height: 1rem !important;
+    background-color: #fff !important;
+    color: rgba(0,0,0,.8) !important;
+    background-image: linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1)) !important;
+    text-shadow: none !important;
+    
+}
+
+.dropdown .ui.basic.button, .ui.basic.buttons .button {
+    padding: 1px !important;
+    padding-left: 12px !important;
+}
+/*
+.dropdown .ui.basic.button, .ui.basic.buttons .button i {
+    padding: 1px !important;
+}
+*/
+.fitted.item button.green {
+    padding: 3px !important;
+    padding-left: 8px !important;
+    padding-right: 6px !important;
+}
+
+.repository.file.list #file-buttons .ui.button {
+	font-weight: 700 !important;
+}
+ 
 .ui.basic.blue.button:active, .ui.basic.blue.buttons .button:active {
 	background: #ccc !important; 
     color: #111 !important; 
@@ -141,9 +173,14 @@ margin: -3px !important;
 	padding: 3px 15px 7px 15px !important;
 }
 .ui.basic.blue.button, .ui.basic.blue.buttons .button {
-	background: #fcfcfc !important; 
-    color: #333 !important; 
-    box-shadow: 0 0 0 1px #999 inset,0 0 0 0 rgba(0,0,0,.13) inset !important; 
+    z-index: 2 !important;
+    color: #333 !important;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.6) !important;
+    background-color: #ccc !important;
+    background-image: -webkit-linear-gradient(#ccc, #d5d5d5) !important;
+    background-image: linear-gradient(#ccc, #d5d5d5) !important;
+    border-color: #bbb !important;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.075) !important;
 }
 .ui.basic.blue.button:hover, .ui.basic.blue.buttons .button:hover, .ui.basic.blue.button:focus, .ui.basic.blue.buttons .button:focus {
 	background: #ccc !important; 
@@ -214,6 +251,19 @@ h2 {
 }
 #collaborative-repo-list a:hover, .repo-owner-name-list a:hover {
 	text-decoration: none !important;
+}
+.ui.basic.icon.button.poping.up.clipboard {
+
+}
+.ui.basic.icon.button.poping.up.clipboard i {
+	padding-left: 4px !important;
+}
+.jump .download.icon {
+	padding-top: 4px !important;
+}
+.jump.ui.basic.jump.dropdown.icon.button {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
 }
 .jump a:hover {
 	text-decoration: none !important;
