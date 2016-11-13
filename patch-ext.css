@@ -35,6 +35,13 @@ a:not(.editor-toolbar), button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 
 	background-image: linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1)) !important;
 	text-shadow: none !important;
 }
+.ui.blue.button:hover, .ui.blue.buttons .button:hover {
+	background-color: #F0F0F0 !important;
+    background-image: -webkit-linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1)) !important;
+    background-image: linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1)) !important;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.13) inset,0 0 0 0 rgba(0,0,0,.13) inset !important;
+    color: rgba(0,0,0,.8) !important;
+}
 
 .ui.blue.buttons .ui.blue.button {
 	padding: 8px !important;
@@ -496,6 +503,9 @@ h2 {
 .dropzone  {
 	background-color: #fff !important;
 	background-image: none !important;
+}
+.ui.repository.list .item a.name {
+	font-weight: 600 !important;
 }
 /*
 .ui.radio.checkbox .box:before, .ui.radio.checkbox label:before {
