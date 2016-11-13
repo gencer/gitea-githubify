@@ -99,10 +99,20 @@ margin: -3px !important;
 }
 
 .four.wide .sha.label {
-	background-color: transparent !important;
-	font-weight: bolder !important;
+	background-color: rgba(0, 212, 124, 0.35) !important;
+	font-weight: 900 !important;
 	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
-	margin: 0 !important;
+
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	padding: 6px 10px 6px 10px !important;
+	margin-top:-5px !important;
+	margin-left: 7px !important; 
+	margin-right: 7px !important; 
+
+	
+	
 }
 .ui.table td {
 	padding: .46153846em .61538462em !important;
