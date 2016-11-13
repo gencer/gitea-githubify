@@ -30,9 +30,14 @@ Screenshots:
 ![5](/ss/5.png?raw=true "")
 ![6](/ss/6.png?raw=true "")
 ![7](/ss/7.png?raw=true "")
-Improved repo name
-===
+
+Improved repo name (NEW)
+---
 ![9](/ss/9.png?raw=true "")
+
+Improved repository header (NEW)
+---
+![10](/ss/10.png?raw=true "")
 
 
 Licensed under **MIT** License
