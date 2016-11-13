@@ -132,7 +132,7 @@ margin: -3px !important;
 .ui.basic.button, .ui.basic.buttons .button {
 	color: #666 !important;
 }
-.ui.basic.button:focus, .ui.basic.button:hover, .ui.basic.buttons .button:focus, .ui.basic.buttons .button:hover {
+.ui.basic.button:focus:not(.dropzone), .ui.basic.button:hover:not(.dropzone), .ui.basic.buttons .button:focus:not(.dropzone), .ui.basic.buttons .button:hover:not(.dropzone) {
     padding: 7px !important;
     line-height: 1rem !important;
     background-color: #fff !important;
@@ -141,7 +141,7 @@ margin: -3px !important;
     text-shadow: none !important;
     
 }
-.ui.basic.button, .ui.basic.buttons .button {
+.ui.basic.button:not(.dropzone), .ui.basic.buttons .button:not(.dropzone) {
     padding: 7px !important;
     line-height: 1rem !important;
     background-color: #fff !important;
@@ -418,7 +418,7 @@ h2 {
 	box-shadow: none !important;
 	border-left: 1px solid #ccc !important;
 }
-.ui.basic.button:focus, .ui.basic.button:hover, .ui.basic.buttons .button:focus, .ui.basic.buttons .button:hover {
+.ui.basic.button:focus:not(.dropzone), .ui.basic.button:hover:not(.dropzone), .ui.basic.buttons .button:focus:not(.dropzone), .ui.basic.buttons .button:hover:not(.dropzone) {
 	background-color: #F3F3F3 !important;
 	border: none !important;
 	box-shadow: none !important;
@@ -445,6 +445,10 @@ h2 {
 }
 .repository .filter.menu .octicon {
 	margin-top: -2px !important;
+}
+.dropzone  {
+	background-color: #fff !important;
+	background-image: none !important;
 }
 /*
 .ui.radio.checkbox .box:before, .ui.radio.checkbox label:before {
