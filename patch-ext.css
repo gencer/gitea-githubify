@@ -78,6 +78,15 @@ margin: -3px !important;
 	color: #6FBA4E !important;
 	
 }
+.repository.file.list .fitted .basic.small.button {
+	color: #666 !important;
+	font-weight: normal !important;
+}
+.repository.file.list .fitted .basic.small.button strong {
+	color: #000 !important;
+	font-weight: bold !important;
+}
+
 .ui.table {
 	font-size: 14px !important;
 }
