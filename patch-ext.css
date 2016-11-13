@@ -1,0 +1,337 @@
+a, button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 {
+  font-family: "Segoe UI", "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, sans-serif !important;
+}
+
+.ui.menu .item>.label.gray {
+	margin-top: 3px !important;
+}
+.ui.menu .item>.label.blue {
+	margin-top: 2px !important;
+	background-color: #BF4C4C !important;
+}
+.octicon {
+	margin-top: 3px !important;
+}
+
+.icon.search.save:before, .icon.search:before {
+	content: none !important;
+}
+
+#file-buttons a {
+	font-family: "Segoe UI", "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, sans-serif !important;
+	font-weight: 600 !important;
+}
+#file-buttons a:hover {
+	background-image: linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1)) !important;
+}
+.ui.blue.button, .ui.blue.buttons .button {
+	padding: 8px !important;
+	line-height: 1rem !important;
+	background-color: #fff !important;
+	color: rgba(0,0,0,.8) !important;
+	background-image: linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1)) !important;
+	text-shadow: none !important;
+}
+
+.ui.blue.button, .ui.blue.buttons .button:hover {
+	padding: 8px !important;
+	line-height: 1rem !important;
+	background-color: #fcfcfc !important;
+	color: rgba(0,0,0,.8) !important;
+	background-image: linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1)) !important;
+	text-shadow: none !important;
+}
+
+
+.ui.icon.button>.icon, .ui.icon.buttons .button>.icon {
+	margin: -3px !important;
+}
+.octicon-clippy {
+margin: 0 !important;
+}
+/*
+.repository #clone-panel .icon.button {
+margin: -3px !important;
+}*/
+
+.octicon-repo-forked {
+	font-size: 13px !important;
+}
+#repo-clone-url {
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.repository .head .ui.huge.breadcrumb {
+	font-size: 1.46153846rem !important;
+}
+.repository .head .ui.huge.breadcrumb i {
+	font-size: 1.3rem !important;
+	width: 15px !important;
+	
+}
+.repository .head .ui.huge.breadcrumb i.octicon-lock {
+	color: #6FBA4E !important;
+	
+}
+.ui.table {
+	font-size: 14px !important;
+}
+
+.name .octicon {
+	color: #80A6CD !important;
+}
+.name a {
+	color: #4078c0 !important;
+}
+.ui.label, .ui.labels .label {
+	font-size: .85714286rem !important;
+}
+.ui .sha.label {
+	background-color: transparent !important;
+	font-weight: 600;
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+	margin: 0 !important;
+}
+
+.four.wide .sha.label {
+	background-color: transparent !important;
+	font-weight: bolder !important;
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+	margin: 0 !important;
+}
+.ui.table td {
+	padding: .46153846em .61538462em !important;
+}
+.ui.secondary.menu .item {
+	border-radius: 0 !important;
+}
+.ui.secondary.menu .item:hover {
+	border-radius: 0 !important;
+}
+.repository.file.list .choose.reference .header .icon {
+	font-size: 1rem !important;
+}
+.ui.dropdown .menu>.header {
+	text-transform: uppercase !important;
+}
+.reference .tags {
+	margin-top: 6px !important;
+}
+.header a.column:hover {
+	text-decoration: none !important;
+	color: #000 !important;
+}
+.ui.floating.dropdown .menu {
+	box-shadow: none !important;
+}
+.ui.basic.button, .ui.basic.buttons .button {
+	color: #666 !important;
+}
+.ui.basic.button:focus, .ui.basic.button:hover, .ui.basic.buttons .button:focus, .ui.basic.buttons .button:hover {
+	background: #fcfcfc !important; 
+    color: #333 !important; 
+    box-shadow: 0 0 0 1px #999 inset,0 0 0 0 rgba(0,0,0,.13) inset !important; 
+    
+}
+.ui.basic.blue.button:active, .ui.basic.blue.buttons .button:active {
+	background: #ccc !important; 
+    color: #111 !important; 
+    box-shadow: 0 0 0 1px #666 inset,0 0 0 0 rgba(0,0,0,.13) inset !important; 
+}
+.ui.menu .ui.dropdown .menu>.item {
+	padding: 3px 15px 7px 15px !important;
+}
+.ui.basic.blue.button, .ui.basic.blue.buttons .button {
+	background: #fcfcfc !important; 
+    color: #333 !important; 
+    box-shadow: 0 0 0 1px #999 inset,0 0 0 0 rgba(0,0,0,.13) inset !important; 
+}
+.ui.basic.blue.button:hover, .ui.basic.blue.buttons .button:hover, .ui.basic.blue.button:focus, .ui.basic.blue.buttons .button:focus {
+	background: #ccc !important; 
+    color: #111 !important; 
+    box-shadow: 0 0 0 1px #666 inset,0 0 0 0 rgba(0,0,0,.13) inset !important; 
+}
+.twelve h3 a {
+ font-size: 29px !important;
+ font-weight: normal !important;
+}
+.four .commit {
+ margin-top: 25px !important;
+
+}
+.twelve h4 a, .four .commit a, .tag a {
+
+ font-size: 13px !important;
+ font-weight: normal !important;
+}
+#release-list {
+	padding-top: 30px !important;
+}
+.twelve h4 a:hover, .four .commit a:hover, .tag a:hover {
+ text-decoration: none !important;
+ color: #2B4463 !important;
+ font-size: 13px !important;
+ font-weight: normal !important;
+}
+.twelve h3 small a {
+ font-size: 16px !important;
+ font-weight: normal !important;
+}
+.repository.release #release-list > li .detail .author img {
+	margin-bottom: -6px !important;
+}
+.download .list a {
+	display: flex !important;
+	color: #4078C0 !important;
+}
+.download .list a:hover {
+	color: #335684 !important;
+}
+.download .list .octicon {
+	color: #555 !important;
+}
+.download .octicon {
+	margin-top: 1px !important;
+	margin-right: 5px;
+}
+.download a {
+	color: #555 !important;
+	text-transform: lowercase !important;
+	padding-left: 5px !important;
+}
+.download a:hover {
+	text-decoration: none !important;
+	color: #4078C0 !important;
+}
+h2 {
+	font-weight: normal !important;
+}
+.repository.new.release .target .selection.dropdown {
+    padding-top: 6px !important;
+    padding-bottom: 10px !important;
+}
+.feeds .list #collaborative-repo-list .owner-and-repo {
+	margin-bottom: -1px !important;
+}
+#collaborative-repo-list a:hover, .repo-owner-name-list a:hover {
+	text-decoration: none !important;
+}
+.jump a:hover {
+	text-decoration: none !important;
+}
+.jump .image {
+	margin-top: -5px !important;
+}
+.ui.dropdown .menu>.item {
+	padding: 5px 5px 10px 20px !important;
+}
+.bar {
+	background-color: #F5F5F5 !important;
+}
+.bar a.item, .secondary a.item {
+	font-weight: 400 !important;
+	color: #333 !important;
+	
+}
+.secondary a.item:hover {
+	font-weight: 400 !important;
+	color: #000 !important;
+	background-color: transparent !important;
+	
+}
+.bar a.item.active, .secondary a.item.active {
+	color: #000 !important;
+	font-weight: 600 !important;
+	background-color: transparent !important;
+}
+
+.commits .ui.attached.header {
+	background-color: #fff !important;
+	border: none !important;
+	/*border-bottom: 2px solid #F0F0F0 !important;*/
+}
+.commits .ui.basic.table, .commits .ui.attached.table, .commits .ui.basic.table tr, .commits .ui.basic.table td, .commits .ui.basic.table th {
+	border: none !important;
+}
+.commits .ui.basic.table th {
+	border-bottom: 2px solid #F0F0F0 !important;
+}
+
+#branch-list .item, #tag-list .item {
+	padding: 10px !important;
+}
+
+.tabular a.active  {
+	font-weight: normal !important;
+}
+
+.twelve.detail h4 {
+	margin-top: 5px !important;
+}
+
+.twelve.detail h4 i {
+	color: #80A6CD !important;
+}
+/*
+#release-list .ui.grid {
+	margin-top: 0 !important;
+}*/
+#release-list h4 i {
+	display: none;
+}
+#release-list h4 a {
+	color: #000 !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+}
+#release-list h4 a:hover {
+	text-decoration: underline !important;
+}
+.repository.release #release-list > li .detail .dot {
+	top: 30px !important;
+}
+#release-list .download i {
+	margin: 0 !important;
+	padding: 0 !important;
+	/*display: flex;*/
+}
+.repository.release #release-list > li .meta, .repository.release #release-list > li .detail {
+    padding-top: 0 !important;
+}
+
+.info.segment.top {
+	background-color: #fff !important;
+}
+.ui.segment {
+	padding: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.diff-box strong:first-of-type {
+	color: #6E82AF !important;
+}
+.diff-box strong:last-of-type {
+	color: #f00 !important;
+}
+
+.horizontal.list .ui.blue.sha.label {
+	color: #000 !important;
+	font-weight: 800;
+	
+} 
+.horizontal.list a.ui.blue.sha.label:hover {
+	text-decoration: underline !important;
+	background-color: transparent !important;
+	
+} 
+.column .breadcrumb a:last-of-type {
+	font-weight: 600 !important;
+}
+/*
+.ui.radio.checkbox .box:before, .ui.radio.checkbox label:before {
+	top: 4px;
+}*/
+
+/*
+.owner-and-repo {
+	margin-top: -3px !important;
+}*/
