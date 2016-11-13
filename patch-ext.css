@@ -86,7 +86,15 @@ margin: -3px !important;
 	color: #000 !important;
 	font-weight: bold !important;
 }
+.repository.file.list .fitted .basic.small.button .text .octicon-git-branch {
+	display:none;
+}
 
+.repository.file.list .fitted .dropdown .ui.basic.button, .repository.file.list .fitted .ui.basic.buttons .button {
+	padding-top: 7px !important;
+    padding-bottom: 2px !important;
+    padding-left: 12px !important;
+}
 .ui.table {
 	font-size: 14px !important;
 }
