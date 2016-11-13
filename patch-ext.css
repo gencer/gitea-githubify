@@ -132,7 +132,7 @@ margin: -3px !important;
 .ui.basic.button, .ui.basic.buttons .button {
 	color: #666 !important;
 }
-.ui.basic.button:focus:not(.dropzone), .ui.basic.button:hover:not(.dropzone), .ui.basic.buttons .button:focus:not(.dropzone), .ui.basic.buttons .button:hover:not(.dropzone) {
+.repository:not(.file) .ui.basic.button:focus:not(.dropzone), .repository:not(.file) .ui.basic.button:hover:not(.dropzone), .repository:not(.file) .ui.basic.buttons .button:focus:not(.dropzone), .repository:not(.file) .ui.basic.buttons .button:hover:not(.dropzone) {
     padding: 7px !important;
     line-height: 1rem !important;
     background-color: #fff !important;
@@ -399,26 +399,26 @@ h2 {
 	background-image: none !important;
 }
 
-.ui.tiny.basic.buttons .basic.button {
+.repository:not(.file) .ui.tiny.basic.buttons .basic.button {
 	padding: 12px !important;
 	border: none !important;
 	box-shadow: none !important;
 	background-color: #fff !important;
 	background-image: none !important;
 }
-.ui.tiny.basic.buttons .green.active {
+.repository:not(.file) .ui.tiny.basic.buttons .green.active {
 	background-color: #F3F3F3 !important;
 	border: none !important;
 	box-shadow: none !important;
 	border-right: 1px solid #ccc !important;
 }
-.ui.tiny.basic.buttons .red.active {
+.repository:not(.file) .ui.tiny.basic.buttons .red.active {
 	background-color: #F3F3F3 !important;
 	border: none !important;
 	box-shadow: none !important;
 	border-left: 1px solid #ccc !important;
 }
-.ui.basic.button:focus:not(.dropzone), .ui.basic.button:hover:not(.dropzone), .ui.basic.buttons .button:focus:not(.dropzone), .ui.basic.buttons .button:hover:not(.dropzone) {
+.repository:not(.file) .ui.basic.button:focus:not(.dropzone), .repository:not(.file) .ui.basic.button:hover:not(.dropzone), .repository:not(.file) .ui.basic.buttons .button:focus:not(.dropzone), .repository:not(.file) .ui.basic.buttons .button:hover:not(.dropzone) {
 	background-color: #F3F3F3 !important;
 	border: none !important;
 	box-shadow: none !important;
