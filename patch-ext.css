@@ -1,5 +1,8 @@
-a, button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 {
+a:not(.editor-toolbar), button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 {
   font-family: "Segoe UI", "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, sans-serif !important;
+}
+.editor-toolbar a.fa {
+  font-family: "FontAwesome" !important;
 }
 
 .ui.menu .item>.label.gray {
