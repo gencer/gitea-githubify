@@ -443,6 +443,12 @@ h2 {
 	padding-left: 15px !important;
 	padding-right: 25px !important;
 }
+.ui.menu .ui.dropdown .menu>.item {
+	padding-top: 5px !important;
+	padding-bottom: 8px !important;
+	padding-left: 15px !important;
+	padding-right: 25px !important;
+}
 .repository .filter.menu .octicon {
 	margin-top: -2px !important;
 }
