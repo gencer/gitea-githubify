@@ -142,7 +142,10 @@ margin: -3px !important;
 .ui.basic.button, .ui.basic.buttons .button {
 	color: #666 !important;
 }
-.repository:not(.file) .ui.basic.button:focus:not(.dropzone, .segment), .repository:not(.file) .ui.basic.button:hover:not(.dropzone, .segment), .repository:not(.file) .ui.basic.buttons .button:focus:not(.dropzone, .segment), .repository:not(.file) .ui.basic.buttons .button:hover:not(.dropzone, .segment) {
+.ui.basic.button:focus, .ui.basic.button:hover, .ui.basic.buttons .button:focus, .ui.basic.buttons .button:hover {
+	background-color: #fff !important;
+}
+.repository:not(.file) .ui.basic.button:focus:not(.dropzone, .segment), .repository:not(.file) .ui.basic.button:hover:not(.dropzone, .segment), .repository:not(.file) .ui.basic.buttons .button:focus:not(.dropzone, .segment), .repository:not(.file) .ui.basic.buttons .button:hover:not(.dropzone) {
     padding: 7px !important;
     line-height: 1rem !important;
     background-color: #fff !important;
@@ -151,7 +154,15 @@ margin: -3px !important;
     text-shadow: none !important;
     
 }
-.ui.basic.button:not(.dropzone, .segment), .ui.basic.buttons .button:not(.dropzone, .segment) {
+.segment .dropdown .ui.basic.button, .segment .ui.basic.buttons .button {
+	padding: 10px 7px 5px 20px !important;
+}
+
+.segment .dropdown .ui.basic.button:hover, .segment  .ui.basic.buttons .button:hover {
+	padding: 10px 7px 5px 20px !important;
+}
+
+.ui.basic.button:not(.dropzone), .ui.basic.buttons .button:not(.dropzone) {
     padding: 7px !important;
     line-height: 1rem !important;
     background-color: #fff !important;
@@ -428,7 +439,7 @@ h2 {
 	box-shadow: none !important;
 	border-left: 1px solid #ccc !important;
 }
-.repository:not(.file) .ui.basic.button:focus:not(.dropzone, .segment), .repository:not(.file) .ui.basic.button:hover:not(.dropzone, .segment), .repository:not(.file) .ui.basic.buttons .button:focus:not(.dropzone, .segment), .repository:not(.file) .ui.basic.buttons .button:hover:not(.dropzone, .segment) {
+.repository:not(.file) .ui.basic.button:focus:not(.dropzone, .segment), .repository:not(.file) .ui.basic.button:hover:not(.dropzone, .segment), .repository:not(.file) .ui.basic.buttons .button:focus:not(.dropzone, .segment), .repository:not(.file) .ui.basic.buttons .button:hover:not(.dropzone) {
 	background-color: #F3F3F3 !important;
 	border: none !important;
 	box-shadow: none !important;
@@ -462,7 +473,7 @@ h2 {
 .repository .filter.menu .octicon {
 	margin-top: -2px !important;
 }
-.dropzone, .segment  {
+.dropzone  {
 	background-color: #fff !important;
 	background-image: none !important;
 }
