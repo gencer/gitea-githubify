@@ -1,7 +1,3 @@
-/*!
- * Copyright (c) 2016 Gencer Genç. All rights reserved.
- *
- */
 a:not(.editor-toolbar), button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 {
   font-family: "Segoe UI", "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, sans-serif !important;
 }
@@ -484,10 +480,10 @@ h2 {
 	background-color: transparent !important;
 	color: #664367 !important;
 }
-
+/*
 .right .ui.button:not(.clone) {
 	font-weight: normal !important;
-}
+}*/
 
 .ui.dropdown .menu>.item {
 	padding-top: 10px !important;
