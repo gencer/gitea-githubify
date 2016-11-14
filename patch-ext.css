@@ -467,6 +467,12 @@ h2 {
 	padding-right: 15px;
 	padding-left: 15px;
 }
+.repository.diff .ui.attached.info.segment {
+	padding-top: 12px !important;
+}
+.repository.diff .ui.attached.info.segment .ui.right {
+	margin-top: -3px !important;
+}
 .diff-box strong:first-of-type {
 	color: #6E82AF !important;
 }
@@ -474,13 +480,23 @@ h2 {
 	color: #f00 !important;
 }
 
-.horizontal.list .ui.blue.sha.label {
-	color: #000 !important;
+.horizontal.list a.ui.blue.sha.label {
+	color: #666 !important;
 	font-weight: 800;
+	border-bottom: 1px dotted #666 !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	padding: 0;
+	margin: 0;
+	margin-left: 7px;
+	margin-right: 7px;
+	padding-bottom: 3px !important;
 	
 } 
 .horizontal.list a.ui.blue.sha.label:hover {
-	text-decoration: underline !important;
+	color: #000 !important;
+	text-decoration: none !important;
 	background-color: transparent !important;
 	
 } 
@@ -562,6 +578,26 @@ h2 {
 	font-weight: 600 !important;
 }
 
+.ui.top.attached.info.clearing.segment a.right.blue.button {
+	border: 1px solid #cedee5 !important;
+	background: transparent !important;
+	background-image: none !important;
+	color: #4078c0 !important;
+	box-shadow: none !important;
+}
+.ui.top.attached.info.clearing.segment a.right.blue.button:hover {
+	color: #4078c0 !important;
+    border: 1px solid #4078c0 !important;
+}
+.ui.top.attached.info.clearing.segment a.right.blue.button:active {
+	color: #4078c0 !important;
+	background-color: #D1DBDF !important;
+    border: 1px solid #4078c0 !important;
+}
+
+.segment .ui.avatar.image {
+	margin-top: -3px !important;
+}
 /*
 .ui.radio.checkbox .box:before, .ui.radio.checkbox label:before {
 	top: 4px;

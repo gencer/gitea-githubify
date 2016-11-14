@@ -41,5 +41,9 @@ Improved repository header (NEW)
 ---
 ![13](/ss/13.png?raw=true "")
 
+Improved commit header (NEW)
+---
+![14](/ss/14.png?raw=true "")
+
 
 Licensed under **MIT** License
