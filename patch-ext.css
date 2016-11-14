@@ -100,6 +100,21 @@ margin: -3px !important;
 	display:none;
 }
 
+.repository.commits .fitted .basic.small.button {
+	color: #666 !important;
+	font-weight: normal !important;
+	padding: 7px !important;
+	padding-bottom: 2px !important;
+	padding-left: 12px !important;
+	
+}
+.repository.commits .fitted .basic.small.button strong {
+	color: #000 !important;
+	font-weight: bold !important;
+}
+.repository.commits .fitted .basic.small.button .text .octicon-git-branch {
+	display:none;
+}
 .repository.file.list .fitted .dropdown .ui.basic.button, .repository.file.list .fitted .ui.basic.buttons .button {
 	padding-top: 7px !important;
     padding-bottom: 2px !important;
@@ -114,6 +129,9 @@ margin: -3px !important;
 }
 .name a {
 	color: #4078c0 !important;
+    margin-top: -20px !important;
+    margin-left: 30px;
+    display: flex;
 }
 .ui.label, .ui.labels .label {
 	font-size: .85714286rem !important;
@@ -166,11 +184,11 @@ margin: -3px !important;
 	background-color: #D9DFE5 !important;
 	color: #555 !important;
 }
-.ui.link.menu .item, .ui.menu .dropdown.item, .ui.menu .link.item, .ui.menu a.item {
+.ui.link.menu:not(.tabular) .item, .ui.menu:not(.tabular) .dropdown.item, .ui.menu:not(.tabular) .link.item, .ui.menu:not(.tabular) a.item {
 	background-color: #ffffff !important;
 	background: transparent !important;
 }
-.ui.link.menu .item:hover, .ui.menu .dropdown.item:hover, .ui.menu .link.item:hover, .ui.menu a.item:hover {
+.ui.link.menu:not(.tabular) .item:hover, .ui.menu:not(.tabular) .dropdown.item:hover, .ui.menu:not(.tabular) .link.item:hover, .ui.menu:not(.tabular) a.item:hover {
 	background-color: #fcfcfc !important;
 }
 .ui.vertical.menu .active.item {
