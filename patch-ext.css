@@ -159,6 +159,13 @@ margin: -3px !important;
 	margin-right: 7px;
 	padding-bottom: 3px !important;
 }
+.top.attached.header {
+	background-color: #F9FAFB !important;
+}
+.header .ui.grey.label {
+	background-color: #D9DFE5 !important;
+	color: #555 !important;
+}
 .ui.link.menu .item, .ui.menu .dropdown.item, .ui.menu .link.item, .ui.menu a.item {
 	background-color: #ffffff !important;
 	background: transparent !important;
@@ -536,6 +543,7 @@ h2 {
 .ui.repository.list .item a.name {
 	font-weight: 600 !important;
 }
+
 /*
 .ui.radio.checkbox .box:before, .ui.radio.checkbox label:before {
 	top: 4px;
