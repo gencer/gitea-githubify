@@ -619,6 +619,12 @@ h2 {
 #repo-files-table .name a:hover {
 	text-decoration: underline !important;
 }
+#collaborative-repo-list a:hover {
+	color: #000 !important;
+}
+#collaborative-repo-list .private:hover {
+	background-color: #FEFBF2 !important;
+}
 /*
 .ui.radio.checkbox .box:before, .ui.radio.checkbox label:before {
 	top: 4px;
