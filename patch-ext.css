@@ -2,7 +2,7 @@
  * Copyright (c) 2016 Gencer Genc. All rights reserved.
  *
  */
- a:not(.editor-toolbar), button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 {
+a:not(.editor-toolbar), button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 {
   font-family: "Segoe UI", "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, sans-serif !important;
 }
 .editor-toolbar a.fa {
@@ -369,7 +369,11 @@ h2 {
     padding-bottom: 10px !important;
 }
 .feeds .list #collaborative-repo-list .owner-and-repo {
-	margin-bottom: -1px !important;
+	margin-bottom: -2px !important;
+}
+
+.feeds .list #collaborative-repo-list .owner-name {
+	margin-bottom: -4px !important;
 }
 #collaborative-repo-list a:hover, .repo-owner-name-list a:hover {
 	text-decoration: none !important;
