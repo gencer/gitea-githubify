@@ -625,6 +625,14 @@ h2 {
 #collaborative-repo-list .private:hover {
 	background-color: #FEFBF2 !important;
 }
+.repository.new.repo form .required .dropdown .text, .repository.new.migrate form .required .dropdown .text, .repository.new.fork form .required .dropdown .text {
+	margin: -1px !important;
+	
+}
+.ui.dropdown .menu>.item>.image, .ui.dropdown .menu>.item>img, .ui.dropdown>.text>.image, .ui.dropdown>.text>img {
+	margin-top: -2px !important;
+}
+
 /*
 .ui.radio.checkbox .box:before, .ui.radio.checkbox label:before {
 	top: 4px;
