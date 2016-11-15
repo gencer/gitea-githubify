@@ -1,4 +1,8 @@
-a:not(.editor-toolbar), button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 {
+/*!
+ * Copyright (c) 2016 Gencer Genc. All rights reserved.
+ *
+ */
+ a:not(.editor-toolbar), button, strong, b, .ui.menu, p, div, h1, h2, h3, h4, h5 {
   font-family: "Segoe UI", "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, sans-serif !important;
 }
 .editor-toolbar a.fa {
@@ -147,13 +151,13 @@ margin: -3px !important;
 	color: #3084bc !important; 
 }
 .ui .sha.label:hover {
-	color: #673ab7 !important; 
+	color: #482880 !important; 
 }
 
 .four.wide .sha.label {
 	/*background-color: rgba(0, 212, 124, 0.35) !important;
 	font-weight: 900 !important;
-	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+	
 
 	-webkit-border-radius: 0 !important;
 	-moz-border-radius: 0 !important;
@@ -165,7 +169,8 @@ margin: -3px !important;
 	
 	font-weight: 600 !important;
 	/*font-size: 15px !important;*/
-	font-family: "Segoe UI", "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, sans-serif !important;
+	/*font-family: "Segoe UI", "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, sans-serif !important;*/
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
 	color: #3084bc !important; 
 	border-bottom: 1px dotted #666 !important;
 	-webkit-border-radius: 0 !important;
@@ -176,6 +181,9 @@ margin: -3px !important;
 	margin-left: 7px;
 	margin-right: 7px;
 	padding-bottom: 3px !important;
+}
+.four.wide .sha.label:hover {
+	color: #482880 !important; 
 }
 .top.attached.header {
 	background-color: #F9FAFB !important;
@@ -597,6 +605,15 @@ h2 {
 
 .segment .ui.avatar.image {
 	margin-top: -3px !important;
+}
+.repository.file.list #repo-files-table tr:hover {
+	background-color: #F5F5F5 !important;
+}
+.fitted a.section:hover {
+	text-decoration: underline !important;
+}
+#repo-files-table .name a:hover {
+	text-decoration: underline !important;
 }
 /*
 .ui.radio.checkbox .box:before, .ui.radio.checkbox label:before {
