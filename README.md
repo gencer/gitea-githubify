@@ -1,4 +1,4 @@
-# gitea-gihubify
+# gitea-githubify
 GitHub Theme for Gitea (and for Gogs)
 
 This repo contains patch files for Gitea to make Gitea looks like GitHub.
